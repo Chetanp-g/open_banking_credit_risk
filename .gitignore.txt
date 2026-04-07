@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — large files (add to Git LFS or exclude entirely)
+data/old_cust_transactions.csv
+data/old_txn_features.csv
+
+# Outputs — regenerated when notebooks are run
+outputs/*.png
+
+# OS
+.DS_Store
+Thumbs.db
